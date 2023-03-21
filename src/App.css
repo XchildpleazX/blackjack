@@ -1,38 +1,63 @@
-.App {
+.WagerDashboard {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1rem 0.4rem;
+  border: 2px solid black;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.WagerDashboard-Chip {
   color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.WagerDashboard-Chip-Small {
+  background-image: url('./images/poker-chip.svg');
+  background-size:cover;
+}
+.WagerDashboard-Chip-Med {
+  background-image: url('./images/poker-chip.svg');
+  background-size: cover;
+}
+.WagerDashboard-Chip-Large {
+  background-image: url('./images/poker-chip.svg');
+  background-size: cover;
+}
+.WagerDashboard-Chip:not(:nth-of-type(0)) {
+  margin-left: 1rem;
+}
+.WagerDashboard-Chip-Wagered {
+  margin: 0 auto;
+  background: url('./images/poker-chip.svg');
+  background-size:cover;
+  color: white;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+.InPlay {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Playarea {
+  width: 20rem;
+  height: 30rem;
+  margin: 0 auto;
+  background-image: url('./images/casino.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+p {
+  max-width: 20rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

@@ -1,0 +1,41 @@
+.Card {
+    background: white;
+    display: inline-block;
+    height: 5rem;
+    width: 4rem;
+    margin-left:1rem;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+.Card-Suit {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    top: 0;
+    right: 0;
+}
+.Card-Spades {
+    height: 1rem;
+    width: 1rem;
+    background-image: url("./../../images/spade-suit.svg");
+    background-size:cover;
+}
+.Card-Hearts {
+    height: 1rem;
+    width: 1rem;
+    background-image: url("./../../images/heart.svg");
+    background-size:cover;
+}
+.Card-Clubs {
+    height: 1rem;
+    width: 1rem;
+    background-image: url("./../../images/clubs.svg");
+    background-size:cover;
+}
+.Card-Diamonds {
+    height: 1rem;
+    width: 1rem;
+    background-image: url("./../../images/cards-diamond.svg");
+    background-size:cover;
+}

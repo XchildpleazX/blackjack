@@ -1,0 +1,21 @@
+.Playarea {
+    position: relative;
+    display:flex;
+}
+.PlayerGrid {
+    position: absolute;
+    bottom: 0;
+}
+.Gameplay-Controls {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+.Playarea-Start {
+    flex: 1;
+}
+.Score {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding:0.4rem;
+}
